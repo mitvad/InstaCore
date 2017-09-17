@@ -16,9 +16,6 @@ class MainPresenter {
     weak var view: MainViewInput!
 }
 
-// MARK: MainModuleInput
-extension MainPresenter: MainModuleInput {}
-
 // MARK: MainViewOutput
 extension MainPresenter: MainViewOutput {
     func viewIsReady() {}
@@ -26,3 +23,6 @@ extension MainPresenter: MainViewOutput {
 
 // MARK: MainInteractorOutput
 extension MainPresenter: MainInteractorOutput {}
+
+// MARK: MainModuleInput
+extension MainPresenter: MainModuleInput {}
