@@ -11,6 +11,9 @@
 		CDB4423A1F6E8E390077D25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB442351F6E8E390077D25D /* AppDelegate.swift */; };
 		CDB4423F1F6E8F840077D25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB4423E1F6E8F840077D25D /* Assets.xcassets */; };
 		CDB442421F6E8FB70077D25D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB442411F6E8FB70077D25D /* Info.plist */; };
+		CDB4424D1F6ED2F40077D25D /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB442481F6ED2F40077D25D /* NSObject+ClassName.swift */; };
+		CDB4424E1F6ED2F40077D25D /* UIView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4424A1F6ED2F40077D25D /* UIView+Xib.swift */; };
+		CDB4424F1F6ED2F40077D25D /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4424C1F6ED2F40077D25D /* UIViewController+Storyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CDB442351F6E8E390077D25D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDB4423E1F6E8F840077D25D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB442411F6E8FB70077D25D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB442481F6ED2F40077D25D /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		CDB4424A1F6ED2F40077D25D /* UIView+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
+		CDB4424C1F6ED2F40077D25D /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 		CDB442341F6E8E390077D25D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CDB442461F6ED2F40077D25D /* Extension */,
 				CDB4423B1F6E8F550077D25D /* Service */,
 				CDB442431F6E905B0077D25D /* Module */,
 				CDB442351F6E8E390077D25D /* AppDelegate.swift */,
@@ -105,6 +112,40 @@
 			children = (
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		CDB442461F6ED2F40077D25D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDB442471F6ED2F40077D25D /* NSObject */,
+				CDB442491F6ED2F40077D25D /* UIView */,
+				CDB4424B1F6ED2F40077D25D /* UIViewController */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CDB442471F6ED2F40077D25D /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				CDB442481F6ED2F40077D25D /* NSObject+ClassName.swift */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		CDB442491F6ED2F40077D25D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4424A1F6ED2F40077D25D /* UIView+Xib.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CDB4424B1F6ED2F40077D25D /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4424C1F6ED2F40077D25D /* UIViewController+Storyboard.swift */,
+			);
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB4423A1F6E8E390077D25D /* AppDelegate.swift in Sources */,
+				CDB4424F1F6ED2F40077D25D /* UIViewController+Storyboard.swift in Sources */,
+				CDB4424E1F6ED2F40077D25D /* UIView+Xib.swift in Sources */,
+				CDB4424D1F6ED2F40077D25D /* NSObject+ClassName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
