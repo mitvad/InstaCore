@@ -17,6 +17,12 @@ class MainViewController: UIViewController {
 
         output.viewIsReady()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
 }
 
 // MARK: MainViewInput
