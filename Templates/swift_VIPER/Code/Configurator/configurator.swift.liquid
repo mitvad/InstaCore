@@ -21,6 +21,7 @@ class {{ module_info.name }}ModuleConfigurator {
 
     private func configure(viewController: {{ module_info.name }}ViewController, output moduleOutput: {{ module_info.name }}ModuleOutput?) -> {{ module_info.name }}ModuleInput {
         let router = {{ module_info.name }}Router()
+        router.viewController = viewController
 
         let presenter = {{ module_info.name }}Presenter()
         presenter.view = viewController

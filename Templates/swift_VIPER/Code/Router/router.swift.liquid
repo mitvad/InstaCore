@@ -6,7 +6,11 @@
 //  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
 //
 
-class {{ module_info.name }}Router {}
+import UIKit
+
+class {{ module_info.name }}Router {
+	weak var viewController: UIViewController!
+}
 
 // MARK: {{ module_info.name }}RouterInput
 extension {{ module_info.name }}Router: {{ module_info.name }}RouterInput {}
