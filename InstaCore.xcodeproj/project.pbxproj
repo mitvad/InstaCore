@@ -24,6 +24,13 @@
 		A8E5B0FF091B4551DF590446 /* MainInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439CFA2CEBC0C6A56C2EE7D1 /* MainInteractorOutput.swift */; };
 		AC7336E0539ACBBD5C14E8D1 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFDFBCA3AA009C858E1F8A2 /* MainViewController.storyboard */; };
 		BD632479BE7E75B84F6D6BC3 /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89493AE94E0F37B891C5C2 /* MainViewInput.swift */; };
+		CD6B25A91F77CF840085BD35 /* PostsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B25A81F77CF840085BD35 /* PostsTableDataSource.swift */; };
+		CD6B25AB1F77D00F0085BD35 /* PostsTableDataSourceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B25AA1F77D00F0085BD35 /* PostsTableDataSourceOutput.swift */; };
+		CD6B25AD1F77D0290085BD35 /* PostsTableDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B25AC1F77D0290085BD35 /* PostsTableDataSourceProtocol.swift */; };
+		CD6B25AF1F77D1B20085BD35 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B25AE1F77D1B20085BD35 /* PostTableViewCell.swift */; };
+		CD6B25B11F77D1F50085BD35 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6B25B01F77D1F50085BD35 /* PostTableViewCell.xib */; };
+		CD6B25B61F77D5B20085BD35 /* PostViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B25B51F77D5B20085BD35 /* PostViewData.swift */; };
+		CD6B25B91F77DE430085BD35 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B25B81F77DE430085BD35 /* String+Localized.swift */; };
 		CDB442381F6E8E390077D25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB442321F6E8E390077D25D /* LaunchScreen.storyboard */; };
 		CDB4423A1F6E8E390077D25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB442351F6E8E390077D25D /* AppDelegate.swift */; };
 		CDB4423F1F6E8F840077D25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB4423E1F6E8F840077D25D /* Assets.xcassets */; };
@@ -36,6 +43,7 @@
 		DCF057C516A5055DF968145D /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4858BED9094ACCBBF2C95B4 /* PostsViewController.swift */; };
 		E10DF173815EFB63C512C4BC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB8BCFDC595524DEC870C4 /* MainViewController.swift */; };
 		E60D7DC7B9A725EF2DFCD5C7 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E34BE908C3ACEE3AAB3EA2 /* MainInteractor.swift */; };
+		EFD3410C3F76368C112737E6 /* Pods_InstaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0688DBC1EF0FE739F31B64B9 /* Pods_InstaCore.framework */; };
 		F0325E3E270BA0BA8906DED8 /* PostsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DFC39F6718B5A915B16FC /* PostsModuleInput.swift */; };
 		F75A0695C9272B2EBF02385E /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387904DA63EDE84C70CFD49 /* MainRouter.swift */; };
 		F93245644BE44ED0BF84D48D /* PostsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74BEA7681612A0AAD930116 /* PostsInteractorInput.swift */; };
@@ -43,11 +51,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0688DBC1EF0FE739F31B64B9 /* Pods_InstaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BB8BCFDC595524DEC870C4 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		17E34BE908C3ACEE3AAB3EA2 /* MainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		18E2DDF22F921492F1F295CA /* PostsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsRouter.swift; sourceTree = "<group>"; };
 		2D3DFC39F6718B5A915B16FC /* PostsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsModuleInput.swift; sourceTree = "<group>"; };
 		2EB036D9105C15BC8801614A /* PostsModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsModuleOutput.swift; sourceTree = "<group>"; };
+		3564B6D30BCE59927E191B30 /* Pods-InstaCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaCore/Pods-InstaCore.release.xcconfig"; sourceTree = "<group>"; };
 		439CFA2CEBC0C6A56C2EE7D1 /* MainInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorOutput.swift; sourceTree = "<group>"; };
 		43AD22067CADE63D0A09D60B /* PostsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsViewOutput.swift; sourceTree = "<group>"; };
 		4F89493AE94E0F37B891C5C2 /* MainViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
@@ -60,10 +70,18 @@
 		9AA578D3E1075EFB01AC88D5 /* PostsInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsInteractorOutput.swift; sourceTree = "<group>"; };
 		A23BA6C4D13B495419539EEC /* PostsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsRouterInput.swift; sourceTree = "<group>"; };
 		ABAF82823B40D93031935AE0 /* PostsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsViewInput.swift; sourceTree = "<group>"; };
+		B47A9269DB028A4A9BB12CE9 /* Pods-InstaCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaCore/Pods-InstaCore.debug.xcconfig"; sourceTree = "<group>"; };
 		B652A7F7B0EBC6E54645EEEB /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		B7BB47E8101CA71482CA3025 /* MainInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorInput.swift; sourceTree = "<group>"; };
 		C387904DA63EDE84C70CFD49 /* MainRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		C74BEA7681612A0AAD930116 /* PostsInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsInteractorInput.swift; sourceTree = "<group>"; };
+		CD6B25A81F77CF840085BD35 /* PostsTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableDataSource.swift; sourceTree = "<group>"; };
+		CD6B25AA1F77D00F0085BD35 /* PostsTableDataSourceOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableDataSourceOutput.swift; sourceTree = "<group>"; };
+		CD6B25AC1F77D0290085BD35 /* PostsTableDataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableDataSourceProtocol.swift; sourceTree = "<group>"; };
+		CD6B25AE1F77D1B20085BD35 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		CD6B25B01F77D1F50085BD35 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		CD6B25B51F77D5B20085BD35 /* PostViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewData.swift; sourceTree = "<group>"; };
+		CD6B25B81F77DE430085BD35 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		CDB4421A1F6E8D140077D25D /* InstaCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB442321F6E8E390077D25D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB442351F6E8E390077D25D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,8 +90,8 @@
 		CDB442481F6ED2F40077D25D /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		CDB4424A1F6ED2F40077D25D /* UIView+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
 		CDB4424C1F6ED2F40077D25D /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
-		CFDE99061E7059B38F78F149 /* PostsViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; path = PostsViewController.storyboard; sourceTree = "<group>"; };
-		DCFDFBCA3AA009C858E1F8A2 /* MainViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		CFDE99061E7059B38F78F149 /* PostsViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = PostsViewController.storyboard; sourceTree = "<group>"; };
+		DCFDFBCA3AA009C858E1F8A2 /* MainViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
 		E4858BED9094ACCBBF2C95B4 /* PostsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		F3C055E3677B638EF1BDEA52 /* PostsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsInteractor.swift; sourceTree = "<group>"; };
 		FAF3B78DBD33CE02CF21D80B /* MainModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInput.swift; sourceTree = "<group>"; };
@@ -84,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD3410C3F76368C112737E6 /* Pods_InstaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,19 +118,28 @@
 				BB9003E4BC2D86B19CD88109 /* Router */,
 				99097DE47E4C6C26493DC568 /* Configurator */,
 			);
-			name = Main;
 			path = Main;
+			sourceTree = "<group>";
+		};
+		27ACC6747E60A6B36880C3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47A9269DB028A4A9BB12CE9 /* Pods-InstaCore.debug.xcconfig */,
+				3564B6D30BCE59927E191B30 /* Pods-InstaCore.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		6179FA566B696C277B090E01 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD6B25A71F77CF200085BD35 /* Cell */,
+				CD6B25A61F77CF090085BD35 /* DataSource */,
 				ABAF82823B40D93031935AE0 /* PostsViewInput.swift */,
 				43AD22067CADE63D0A09D60B /* PostsViewOutput.swift */,
 				E4858BED9094ACCBBF2C95B4 /* PostsViewController.swift */,
 				CFDE99061E7059B38F78F149 /* PostsViewController.storyboard */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -122,7 +150,6 @@
 				9A5E4789DF8ECFA090FEB4FF /* MainModuleOutput.swift */,
 				B652A7F7B0EBC6E54645EEEB /* MainPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -133,7 +160,6 @@
 				439CFA2CEBC0C6A56C2EE7D1 /* MainInteractorOutput.swift */,
 				17E34BE908C3ACEE3AAB3EA2 /* MainInteractor.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -144,7 +170,6 @@
 				2EB036D9105C15BC8801614A /* PostsModuleOutput.swift */,
 				6D667682177037EDA86A2547 /* PostsPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -153,7 +178,6 @@
 			children = (
 				50DEE242F8E0BBAC2B5CFB29 /* MainConfigurator.swift */,
 			);
-			name = Configurator;
 			path = Configurator;
 			sourceTree = "<group>";
 		};
@@ -163,7 +187,6 @@
 				A23BA6C4D13B495419539EEC /* PostsRouterInput.swift */,
 				18E2DDF22F921492F1F295CA /* PostsRouter.swift */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -173,7 +196,6 @@
 				989220A515E09B26EA82746B /* MainRouterInput.swift */,
 				C387904DA63EDE84C70CFD49 /* MainRouter.swift */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -184,7 +206,6 @@
 				9AA578D3E1075EFB01AC88D5 /* PostsInteractorOutput.swift */,
 				F3C055E3677B638EF1BDEA52 /* PostsInteractor.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -197,8 +218,58 @@
 				A19AD5A01E102A0C2EEBCBCC /* Router */,
 				E18F84ACAE8AF771D65096A2 /* Configurator */,
 			);
-			name = Posts;
 			path = Posts;
+			sourceTree = "<group>";
+		};
+		CD6B25A61F77CF090085BD35 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B25AA1F77D00F0085BD35 /* PostsTableDataSourceOutput.swift */,
+				CD6B25AC1F77D0290085BD35 /* PostsTableDataSourceProtocol.swift */,
+				CD6B25A81F77CF840085BD35 /* PostsTableDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		CD6B25A71F77CF200085BD35 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B25AE1F77D1B20085BD35 /* PostTableViewCell.swift */,
+				CD6B25B01F77D1F50085BD35 /* PostTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CD6B25B21F77D50C0085BD35 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B25B31F77D50C0085BD35 /* Model */,
+				CD6B25B41F77D50C0085BD35 /* View */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CD6B25B31F77D50C0085BD35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD6B25B41F77D50C0085BD35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B25B51F77D5B20085BD35 /* PostViewData.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD6B25B71F77DE2A0085BD35 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B25B81F77DE430085BD35 /* String+Localized.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		CDB442111F6E8D140077D25D = {
@@ -206,6 +277,8 @@
 			children = (
 				CDB4421C1F6E8D140077D25D /* InstaCore */,
 				CDB4421B1F6E8D140077D25D /* Products */,
+				27ACC6747E60A6B36880C3EF /* Pods */,
+				FB4421C5E396B714753D201D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,6 +314,7 @@
 			children = (
 				CDB442461F6ED2F40077D25D /* Extension */,
 				CDB4423B1F6E8F550077D25D /* Service */,
+				CD6B25B21F77D50C0085BD35 /* Entity */,
 				CDB442431F6E905B0077D25D /* Module */,
 				CDB442351F6E8E390077D25D /* AppDelegate.swift */,
 			);
@@ -282,6 +356,7 @@
 		CDB442461F6ED2F40077D25D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CD6B25B71F77DE2A0085BD35 /* String */,
 				CDB442471F6ED2F40077D25D /* NSObject */,
 				CDB442491F6ED2F40077D25D /* UIView */,
 				CDB4424B1F6ED2F40077D25D /* UIViewController */,
@@ -321,7 +396,6 @@
 				12BB8BCFDC595524DEC870C4 /* MainViewController.swift */,
 				DCFDFBCA3AA009C858E1F8A2 /* MainViewController.storyboard */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -330,8 +404,15 @@
 			children = (
 				5001FA1673805E9FC155A32D /* PostsConfigurator.swift */,
 			);
-			name = Configurator;
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		FB4421C5E396B714753D201D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0688DBC1EF0FE739F31B64B9 /* Pods_InstaCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,9 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB4422C1F6E8D140077D25D /* Build configuration list for PBXNativeTarget "InstaCore" */;
 			buildPhases = (
+				36AD8DF3169277E552FCC313 /* [CP] Check Pods Manifest.lock */,
 				CDB442161F6E8D140077D25D /* Sources */,
 				CDB442171F6E8D140077D25D /* Frameworks */,
 				CDB442181F6E8D140077D25D /* Resources */,
+				128FBDF6AF1171F379C8F478 /* [CP] Embed Pods Frameworks */,
+				923E10293D6F5359B33DCFAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -397,12 +481,67 @@
 				CDB442421F6E8FB70077D25D /* Info.plist in Resources */,
 				CDB442381F6E8E390077D25D /* LaunchScreen.storyboard in Resources */,
 				CDB4423F1F6E8F840077D25D /* Assets.xcassets in Resources */,
+				CD6B25B11F77D1F50085BD35 /* PostTableViewCell.xib in Resources */,
 				AC7336E0539ACBBD5C14E8D1 /* MainViewController.storyboard in Resources */,
 				A069275F3AB7B91B61496A26 /* PostsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		128FBDF6AF1171F379C8F478 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InstaCore/Pods-InstaCore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaCore/Pods-InstaCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36AD8DF3169277E552FCC313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923E10293D6F5359B33DCFAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaCore/Pods-InstaCore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDB442161F6E8D140077D25D /* Sources */ = {
@@ -419,10 +558,12 @@
 				69844FA4E08E2153FCDC64C7 /* MainModuleInput.swift in Sources */,
 				3E9890E3F1999D397CAB6D6E /* MainModuleOutput.swift in Sources */,
 				11A403FBF81CA9E4EA8570DB /* MainPresenter.swift in Sources */,
+				CD6B25AB1F77D00F0085BD35 /* PostsTableDataSourceOutput.swift in Sources */,
 				28E829A546013DA5D7B8D008 /* MainInteractorInput.swift in Sources */,
 				A8E5B0FF091B4551DF590446 /* MainInteractorOutput.swift in Sources */,
 				E60D7DC7B9A725EF2DFCD5C7 /* MainInteractor.swift in Sources */,
 				540E373FA968F548F8B75F25 /* MainRouterInput.swift in Sources */,
+				CD6B25A91F77CF840085BD35 /* PostsTableDataSource.swift in Sources */,
 				F75A0695C9272B2EBF02385E /* MainRouter.swift in Sources */,
 				D3C95B387E9FF0081590B682 /* MainConfigurator.swift in Sources */,
 				45DDF1B62D955E5F4AA0225D /* PostsViewInput.swift in Sources */,
@@ -430,13 +571,17 @@
 				DCF057C516A5055DF968145D /* PostsViewController.swift in Sources */,
 				F0325E3E270BA0BA8906DED8 /* PostsModuleInput.swift in Sources */,
 				D2CEC8145F5AC3772C924F20 /* PostsModuleOutput.swift in Sources */,
+				CD6B25B61F77D5B20085BD35 /* PostViewData.swift in Sources */,
 				7C27D5F235D08775E84DD8B4 /* PostsPresenter.swift in Sources */,
 				F93245644BE44ED0BF84D48D /* PostsInteractorInput.swift in Sources */,
 				FC2B494DC127659DE57FB15A /* PostsInteractorOutput.swift in Sources */,
 				2B7D8F7484765A49DB5ED615 /* PostsInteractor.swift in Sources */,
+				CD6B25B91F77DE430085BD35 /* String+Localized.swift in Sources */,
+				CD6B25AF1F77D1B20085BD35 /* PostTableViewCell.swift in Sources */,
 				153808EA4BA2213AA9018F39 /* PostsRouterInput.swift in Sources */,
 				57F5BE2C781FC9D9BAB27F59 /* PostsRouter.swift in Sources */,
 				8A8CC2F7EDAAADA0C4003A90 /* PostsConfigurator.swift in Sources */,
+				CD6B25AD1F77D0290085BD35 /* PostsTableDataSourceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +685,7 @@
 		};
 		CDB4422D1F6E8D140077D25D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47A9269DB028A4A9BB12CE9 /* Pods-InstaCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P894D32A7T;
@@ -553,6 +699,7 @@
 		};
 		CDB4422E1F6E8D140077D25D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3564B6D30BCE59927E191B30 /* Pods-InstaCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P894D32A7T;

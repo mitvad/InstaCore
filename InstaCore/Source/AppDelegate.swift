@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         initWindow()
-        initMainModule()
+//        initMainModule()
+        initPostsModule()
         
         return true
     }
@@ -36,6 +37,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configurator.configureModule(for: mainVC)
         
         rootNavigationController?.pushViewController(mainVC, animated: true)
+    }
+    
+    private func initPostsModule(){
+        let postsVC = PostsViewController.fromStoryboard()
+        let configurator = PostsModuleConfigurator()
+        configurator.configureModule(for: postsVC)
+        
+        rootNavigationController?.pushViewController(postsVC, animated: true)
     }
 }
 

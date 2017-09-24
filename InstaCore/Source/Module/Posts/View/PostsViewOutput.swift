@@ -8,4 +8,6 @@
 
 protocol PostsViewOutput {
     func viewIsReady()
+    
+    func addPostButtonDidTouch()
 }

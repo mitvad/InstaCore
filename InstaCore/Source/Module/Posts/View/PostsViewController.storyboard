@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="-622" y="107"/>
         </scene>
-        <!--Posts View Controller-->
+        <!--Title-->
         <scene sceneID="Fqi-vE-yvG">
             <objects>
                 <viewController storyboardIdentifier="PostsViewController" automaticallyAdjustsScrollViewInsets="NO" id="Ffe-3O-Woi" customClass="PostsViewController" customModule="InstaCore" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,7 +50,16 @@
                             <constraint firstAttribute="trailing" secondItem="Kc6-fa-IRB" secondAttribute="trailing" id="qXO-Jk-Kxf"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3T9-sl-bcs"/>
+                    <navigationItem key="navigationItem" title="Title" id="nio-mf-mYW">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Tpb-pM-wSl">
+                            <connections>
+                                <action selector="addButtonDidTouch" destination="Ffe-3O-Woi" id="DKO-jC-CYk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Kc6-fa-IRB" id="tqL-zd-vsP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akq-CD-9u0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

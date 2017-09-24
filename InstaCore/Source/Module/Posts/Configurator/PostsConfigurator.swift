@@ -35,7 +35,9 @@ class PostsModuleConfigurator {
 
         presenter.interactor = interactor
         viewController.output = presenter
-
+        
+        viewController.dataSource = PostsTableDataSource(output: presenter)
+        
         return moduleInput
     }
 }
